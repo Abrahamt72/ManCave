@@ -1,0 +1,57 @@
+﻿body {
+    background-image: url("http://static.squarespace.com/static/526e6f08e4b039ceb7dabaae/t/527077abe4b09a993f7fdc41/1383102379326/GarageManCaveBackground.png") ;
+        position: fixed;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+  background-size: 1636px 900px;
+    background-repeat: no-repeat;
+}
+.jumbotron {
+  margin-bottom: 0px;
+  height: 350px;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background:transparent;
+}
+.stylecolumn {
+    width: 325px;
+    padding: 20px;
+    border: 10px solid #808080;
+    margin: 30px;
+}
+.modal {
+    background-image: url("http://media.merchantcircle.com/34205346/!HR_DS_2_Option3_0000%20copy_full.jpeg");
+    background-size: 1636px 900px;
+    background-repeat: no-repeat;
+
+}
+.modal-header {
+    background-color:#0094ff;
+
+    
+}
+.modal-footer {
+    background-color:#0094ff;
+   
+    
+       
+}
+.modal-body {
+    background-color:#ffffff;
+
+    
+}
+<style>
+.clickMe {
+    -moz-appearance: button;
+    -ms-appearance: button;
+    -o-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #f00;
+    padding: 0.4em 0.6em;
+}
